@@ -1,0 +1,31 @@
+Package: BVS4GCR
+Type: Package
+Title: Bayesian Variable Selection for Gaussian Copula Regression models
+Version: 0.2.1
+Date: 2026-10-25
+Authors@R: c(
+    person("Leonardo", "Bottolo", email = "lb664@cam.ac.uk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6381-2327")),
+    person("Clara", "Decotignie", email = "clara.decotignie@ensta-paris.fr", role = c("aut", "ctb")))
+Maintainer: Leonardo Bottolo <lb664@cam.ac.uk>
+Description: This package performs Bayesian predictors and covariance selection for combinations of continuous and/or discrete responses using a recently proposed Bayesian Variable Selection (BVS) algorithm for Gaussian Copula Regression (GCR) models.
+URL: https://github.com/lb664/BVS4GCR
+BugReports: https://github.com/lb664/BVS4GCR/issues
+License: GPL-2 | file LICENSE
+Encoding: UTF-8
+Language: en-GB
+Roxygen: list(markdown = TRUE)
+RdMacros: Rdpack
+LinkingTo: Rcpp, RcppArmadillo
+Imports: 
+    BDgraph,
+    MASS,
+    MCMCpack,
+    mvnfast,
+    mvtnorm,
+    Rcpp,
+    Rdpack,
+    stats,
+    truncnorm,
+    utils
+Config/roxygen2/version: 8.0.0
